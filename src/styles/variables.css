@@ -1,0 +1,47 @@
+:root {
+  /* Color tokens */
+  --color-background: #FAF8F3;
+  --color-surface: #F1EEE6;
+  --color-ink: #1C1A17;
+  --color-ink-soft: #5B564D;
+  --color-primary: #FF4B4B;
+  --color-yellow: #FFC857;
+  --color-green: #5FAE35;
+  --color-blue: #6EA8E5;
+  --color-purple: #8B6FF7;
+  --color-mint: #8DDCC8;
+
+  /* Typography */
+  --font-display: 'Poppins', 'Pretendard', sans-serif;
+  --font-body: 'Inter', 'Pretendard', sans-serif;
+  --font-korean: 'Pretendard', 'Inter', sans-serif;
+
+  /* Layout */
+  --container-width: 1440px;
+  --container-width-tablet: 100%;
+  --section-padding-y: clamp(64px, 8vw, 140px);
+  --section-padding-x: clamp(20px, 6vw, 96px);
+  --grid-gap: clamp(16px, 2vw, 32px);
+
+  /* Radius */
+  --radius-card: 24px;
+  --radius-blob: 48% 52% 58% 42% / 45% 48% 52% 55%;
+  --radius-pill: 999px;
+
+  /* Shadow */
+  --shadow-soft: 0 20px 60px -20px rgba(28, 26, 23, 0.15);
+  --shadow-card: 0 12px 32px -12px rgba(28, 26, 23, 0.12);
+
+  /* Z-index */
+  --z-cursor: 9999;
+  --z-nav: 500;
+  --z-loading: 9000;
+  --z-modal: 800;
+
+  /* Motion */
+  --duration-fast: 0.25s;
+  --duration-base: 0.5s;
+  --duration-slow: 0.9s;
+  --ease-organic: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-snap: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
